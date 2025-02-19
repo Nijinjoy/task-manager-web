@@ -37,7 +37,7 @@ Each task is linked to a user via userId.
 The task status can be either "pending" or "completed".
 The request body for creating a task must include title, description, userId, and status.
 The database is SQLite, ensuring a lightweight and easy-to-manage data structure.
-Authentication is not implemented yet but can be added if required.
+Authentication is implemented .
 Technologies & Libraries Used
 Backend: Node.js with Express.js
 Database: SQLite
